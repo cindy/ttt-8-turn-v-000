@@ -18,7 +18,10 @@ def input_to_index(user_input)
 end
 
 def valid_move?(board, index)
-  board[index] == " "
+  if index > 0
+    board[index] == " "
+  else 
+    false
 end
 
 def move(board, index, character="X")
@@ -34,4 +37,4 @@ def turn(board)
   move(board, answer)
 end
 
-puts input_to_index(6)
+valid_move?()
