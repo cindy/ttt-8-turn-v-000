@@ -43,4 +43,3 @@ end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 display_board(board)
-board.each_slice(3).to_a
