@@ -13,7 +13,7 @@ def display_board(board)
   nil
 end
 
-def input_to_index(input)
+def input_to_index(user_input)
   input.to_i =- 1
 end
 
