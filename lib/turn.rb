@@ -2,7 +2,7 @@ def display_board(board)
   filled_board = []
   puts "everything is okay after board"
   board = board.each_slice(3).to_a
-  puts "everything is okay after slicing board"
+  puts "everything is okay after board"
   board.each do |a|
     filled_board << a.join(" | ")
   end
@@ -33,7 +33,7 @@ def move(board, index, character="X")
     puts "everything is okay after #{}valid move?"
     board[index] = character
     puts "everything is okay after assigning char"
-
+    puts "everything is okay after board"
   end
 end
 
@@ -46,3 +46,4 @@ end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 move(board, 0, "O")
 move(board, 8, "X")
+display(board)
