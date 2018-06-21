@@ -37,3 +37,7 @@ def turn(board)
   answer = gets.strip
   move(board, answer)
 end
+
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+move(board, 0, "O")
+move(board, 8, "X")
