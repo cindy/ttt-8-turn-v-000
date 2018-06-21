@@ -41,5 +41,3 @@ def turn(board)
   move(board, answer)
 end
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-display_board(board)
