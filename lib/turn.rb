@@ -18,6 +18,7 @@ def input_to_index(input)
 end
 
 def valid_move?(board, index)
+  board[index] == " "
 end
 
 def move(board, index, character)
