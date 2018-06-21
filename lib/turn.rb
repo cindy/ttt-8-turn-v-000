@@ -20,7 +20,7 @@ end
 def valid_move?(board, index)
   if index > 0
     board[index] == " "
-  else 
+  else
     false
 end
 
