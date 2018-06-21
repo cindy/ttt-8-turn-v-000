@@ -22,6 +22,7 @@ def valid_move?(board, index)
     board[index] == " "
   else
     false
+  end
 end
 
 def move(board, index, character="X")
