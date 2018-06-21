@@ -39,4 +39,5 @@ def turn(board)
 end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-display_board(board)
+move(board, 0, "O")
+move(board, 8, "X")
