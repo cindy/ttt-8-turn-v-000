@@ -1,6 +1,8 @@
 def display_board(board)
   filled_board = []
+  puts "everything is okay after board"
   board = board.each_slice(3).to_a
+  puts "everything is okay after slicing board"
   board.each do |a|
     filled_board << a.join(" | ")
   end
