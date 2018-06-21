@@ -31,8 +31,7 @@ def move(board, index, character="X")
   if valid_move?(board, index)
     puts "everything is okay after #{}valid move?"
     board[index] = character
-    puts "everything is okay after assigning char"
-    puts "everything is okay after board"
+    display_board(board)
   end
 end
 
