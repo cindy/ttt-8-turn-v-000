@@ -33,3 +33,5 @@ def turn(board)
   answer = gets.strip
   move(board, answer)
 end
+
+puts input_to_index(6)
