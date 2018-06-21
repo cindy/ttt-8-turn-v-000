@@ -37,5 +37,3 @@ def turn(board)
   answer = gets.strip
   move(board, answer)
 end
-
-valid_move?()
