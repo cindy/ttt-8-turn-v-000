@@ -6,3 +6,6 @@ end
 
 def valid_move?(move)
 end 
+
+def move 
+end
